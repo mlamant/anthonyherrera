@@ -28,7 +28,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: #379683;
   text-align: center;
   padding: 16px;
   text-decoration:none;
@@ -36,7 +36,8 @@ li a {
 }
 
 li a:hover {
-  background-color: blue;
+  background-color: #05386B;
+  color: #EDF5E1;
 }
 
 dl {
@@ -47,10 +48,19 @@ dl {
   display:grid;
   grid-template-columns: 50% 50%;
 }
+
+#R1 {
+  color: #05386B;
+}
+
+#R2 {
+  color: #EDF5E1;
+}
+
 </style>
 </head>
-<body>
-<h1>Anthony Herrera</h1>
+<body style="background-color:#5CDB95;">
+<h1 style="color:#EDF5E1;">Anthony Herrera</h1>
 <ul>
   <li><a href="index.html" style="text-decoration:none">Home</a></li>
   <li><a href="Experience.html" style="text-decoration:none">Experience</a><li>
@@ -58,7 +68,7 @@ dl {
   <li><a href="Education.html" style="text-decoration:none">Education</a></li>
   <li><a href="References.html" style="text-decoration:none">References</a></li>
 </ul>
-  <h1 style="text-align:center;">Education</h1>
+  <h1 style="text-align:center; color:#EDF5E1">Education</h1>
 <div class="grid-container">
   <!--
   <img src="ConstructionPicture.jpg" alt="Mario Building Blocks" height=815 style="width:100%;">
@@ -71,18 +81,18 @@ dl {
 
   <div>
     <dl>
-     <dt>Degree Information</dt>
-       <dd>Type: Bachelor of Science: Computer Science</dd>
-       <dd>Overall GPA: 3.3</dd>
-       <dd>Where: California State University, Sacramento</dd>
-       <dd>When: May 22, 2022</dd>
+     <dt id="R1">Degree Information</dt>
+       <dd id="R1">Type: Bachelor of Science: Computer Science</dd>
+       <dd id="R1">Overall GPA: 3.3</dd>
+       <dd id="R1">Where: California State University, Sacramento</dd>
+       <dd id="R1">When: May 22, 2022</dd>
     </dl>
     <dl>
-     <dt>Additional Information</dt>
-       <dd>Obtained Minor of Mathematics</dd>
-       <dd>Computer Science GPA: 3.4</dd>
-       <dd>Where: California State University, Sacramento</dd>
-       <dd>When: May 22, 2022</dd>
+     <dt id="R2">Additional Information</dt>
+       <dd id="R2">Obtained Minor of Mathematics</dd>
+       <dd id="R2">Computer Science GPA: 3.4</dd>
+       <dd id="R2">Where: California State University, Sacramento</dd>
+       <dd id="R2">When: May 22, 2022</dd>
     </dl>
 
   </div>
